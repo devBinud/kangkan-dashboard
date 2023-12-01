@@ -5,7 +5,7 @@
   class="light-style layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="../assets/"
+  data-assets-path="assets/"
   data-template="vertical-menu-template-free"
 >
   <head>
@@ -20,7 +20,11 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/favicon/favicon.ico"
+    />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,29 +35,47 @@
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../assets/css/demo.css" />
-    <link rel="stylesheet" href="../assets/css/custom-style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/core.css"
+      class="template-customizer-core-css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/theme-default.css"
+      class="template-customizer-theme-css"
+    />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="assets/css/custom-style.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
 
-    <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/libs/apex-charts/apex-charts.css"
+    />
 
-      <!-- Font awsome CDN  -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
+    <!-- Font awsome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="../assets/vendor/js/helpers.js"></script>
-    <script src="../assets/js/config.js"></script>
+    <script src="assets/vendor/js/helpers.js"></script>
+    <script src="assets/js/config.js"></script>
   </head>
 
   <body>
@@ -62,162 +84,171 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
-            <div class="app-brand demo" style="background-color:#2a2a7b;">
-                  <a href="index.html" class="app-brand-link">
-                    <span class="app-brand-text demo text-white menu-text text-uppercase fw-bolder main-logo ms-2">KANGKAN EMPORIUM</span>
-                  </a>
-  
-              <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-                <i class="bx bx-chevron-left bx-sm align-middle"></i>
+        <aside
+          id="layout-menu"
+          class="layout-menu menu-vertical menu bg-menu-theme"
+        >
+          <div class="app-brand demo" style="background-color: #2a2a7b">
+            <a href="index.html" class="app-brand-link">
+              <span
+                class="app-brand-text demo text-white menu-text text-uppercase fw-bolder main-logo ms-2"
+                >KANGKAN EMPORIUM</span
+              >
+            </a>
+
+            <a
+              href="javascript:void(0);"
+              class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none"
+            >
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1 mt-4">
+            <!-- Dashboard -->
+            <li class="menu-item active">
+              <a href="index.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">Dashboard</div>
               </a>
-            </div>
-  
-            <div class="menu-inner-shadow"></div>
-  
-            <ul class="menu-inner py-1 mt-4">
-              <!-- Dashboard -->
-              <li class="menu-item active">
-                <a href="index.html" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                  <div data-i18n="Analytics">Dashboard</div>
-                </a>
-              </li>
-  
-              <li class="menu-header small text-uppercase">
-                <span class="menu-header-text">Pages</span>
-              </li>
-              <li class="menu-item">
-                <a href="orders.html" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Orders</div>
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Account Settings">Home Sliders</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-sliders.html" class="menu-link">
-                      <div data-i18n="Account">Add Sliders</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-sliders.html" class="menu-link">
-                      <div data-i18n="Notifications">All Sliders</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Category</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-category.html" class="menu-link">
-                      <div data-i18n="Account">Add Category</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-categories.html" class="menu-link">
-                      <div data-i18n="Notifications">All Categories</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item active open">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Products</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item active">
-                    <a href="add-products.html" class="menu-link">
-                      <div data-i18n="Account">Add Products</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-products.html" class="menu-link">
-                      <div data-i18n="Notifications">All Products</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Discount</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-discount.html" class="menu-link">
-                      <div data-i18n="Account">Add Discount</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-discounts.html" class="menu-link">
-                      <div data-i18n="Notifications">All Discounts</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Customer Review</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-review.html" class="menu-link">
-                      <div data-i18n="Account">Add Review</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="view-all-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">View All Reviews</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="published-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">Published Reviews</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="pending-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">Pending Reviews</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Live Streaming</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="research.html" class="menu-link">
-                      <div data-i18n="Account">Create Streaming</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="presentation-research-paper.html" class="menu-link">
-                      <div data-i18n="Notifications">Push Notifications</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="presentation-research-paper.html" class="menu-link">
-                      <div data-i18n="Notifications">Streaming Records</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </aside>
+            </li>
+
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Pages</span>
+            </li>
+            <li class="menu-item">
+              <a href="orders.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Basic">Orders</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Account Settings">Home Sliders</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-sliders.html" class="menu-link">
+                    <div data-i18n="Account">Add Sliders</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-sliders.html" class="menu-link">
+                    <div data-i18n="Notifications">All Sliders</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Category</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-category.html" class="menu-link">
+                    <div data-i18n="Account">Add Category</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-categories.html" class="menu-link">
+                    <div data-i18n="Notifications">All Categories</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Products</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item active">
+                  <a href="add-products.html" class="menu-link">
+                    <div data-i18n="Account">Add Products</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-products.html" class="menu-link">
+                    <div data-i18n="Notifications">All Products</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Discount</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-discount.html" class="menu-link">
+                    <div data-i18n="Account">Add Discount</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-discounts.html" class="menu-link">
+                    <div data-i18n="Notifications">All Discounts</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Customer Review</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-review.html" class="menu-link">
+                    <div data-i18n="Account">Add Review</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="view-all-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">View All Reviews</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="published-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">Published Reviews</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="pending-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">Pending Reviews</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Live Streaming</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="create-streaming.html" class="menu-link">
+                    <div data-i18n="Account">Create Streaming</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="push-notification.html" class="menu-link">
+                    <div data-i18n="Notifications">Push Notifications</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="streaming-records.html" class="menu-link">
+                    <div data-i18n="Notifications">Streaming Records</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
         <!-- / Menu -->
 
         <!-- Layout container -->
@@ -228,23 +259,38 @@
             class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
             id="layout-navbar"
           >
-            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
-              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+            <div
+              class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none"
+            >
+              <a
+                class="nav-item nav-link px-0 me-xl-4"
+                href="javascript:void(0)"
+              >
                 <i class="bx bx-menu bx-sm"></i>
               </a>
             </div>
 
-            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+            <div
+              class="navbar-nav-right d-flex align-items-center"
+              id="navbar-collapse"
+            >
               <!-- Search -->
               <!-- /Search -->
 
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow"
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                  >
                     <div class="avatar avatar-online">
-                      <img src="../assets/img/avatars/admin-pic.png" alt class="w-px-40 h-auto rounded-circle" />
+                      <img
+                        src="assets/img/avatars/admin-pic.png"
+                        alt
+                        class="w-px-40 h-auto rounded-circle"
+                      />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -253,11 +299,17 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="../assets/img/avatars/admin-pic.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img
+                                src="assets/img/avatars/admin-pic.png"
+                                alt
+                                class="w-px-40 h-auto rounded-circle"
+                              />
                             </div>
                           </div>
                           <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">Kangkan Emporium</span>
+                            <span class="fw-semibold d-block"
+                              >Kangkan Emporium</span
+                            >
                             <small class="text-muted">Admin</small>
                           </div>
                         </div>
@@ -301,122 +353,190 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
+              <h5>Add New Product</h5>
 
-             <h5>Add New Product</h5>
-
-             <div class="row mb-5">
+              <div class="row mb-5">
                 <div class="col-md-12">
                   <div class="card mb-4">
                     <div class="card-body">
                       <div class="row">
                         <div class="col-md-4">
-                            <div class="mb-3">
-                              <label for="exampleFormControlSelect1" class="form-label">Category <span class="text-danger"> *</span></label>
-                              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                                <option selected>Select Category</option>
-                                <option value="1">Mekhela Sador</option>
-                                <option value="2">Gamusa</option>
-                                <option value="3">Single Sador</option>
-                                <option value="4">UKA set</option>
-                              </select>
-                            </div>
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >Category
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option selected>Select Category</option>
+                              <option value="1">Mekhela Sador</option>
+                              <option value="2">Gamusa</option>
+                              <option value="3">Single Sador</option>
+                              <option value="4">UKA set</option>
+                            </select>
+                          </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="mb-3">
-                              <label for="exampleFormControlSelect1" class="form-label">Sub Category <span class="text-danger"> *</span></label>
-                              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                                <option selected>Select Sub Category</option>
-                                <option value="1">Paat Muga</option>
-                                <option value="2">Padmini Cotton</option>
-                                <option value="3">Pure Toss</option>
-                                <option value="4">Pure Nuni</option>
-                                <option value="5">Assam Silk</option>
-                              </select>
-                            </div>
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >Sub Category
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option selected>Select Sub Category</option>
+                              <option value="1">Paat Muga</option>
+                              <option value="2">Padmini Cotton</option>
+                              <option value="3">Pure Toss</option>
+                              <option value="4">Pure Nuni</option>
+                              <option value="5">Assam Silk</option>
+                            </select>
+                          </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="mb-3">
-                              <label for="exampleFormControlSelect1" class="form-label">List on Top Products <span class="text-danger"> *</span></label>
-                              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
-                              </select>
-                            </div>
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >List on Top Products
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option value="1">Yes</option>
+                              <option value="2">No</option>
+                            </select>
+                          </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="mb-3">
-                              <label for="exampleFormControlSelect1" class="form-label">Is In Stock <span class="text-danger"> *</span></label>
-                              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
-                              </select>
-                            </div>
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >Is In Stock
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option value="1">Yes</option>
+                              <option value="2">No</option>
+                            </select>
+                          </div>
                         </div>
-                          <div class="col-md-5">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Product Name<span class="text-danger fw-bold">*</span></label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter product name"
-                              />
-                            </div>
+                        <div class="col-md-5">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Product Name<span class="text-danger fw-bold"
+                                >*</span
+                              ></label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Enter product name"
+                            />
                           </div>
-                          <div class="col-md-4">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Upload Product Image <span class="text-danger"> *</span></label>
-                              <input
-                                type="file"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder=""
-                              />
-                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Upload Product Image
+                              <span class="text-danger"> *</span></label
+                            >
+                            <input
+                              type="file"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder=""
+                            />
                           </div>
-                          <div class="col-md-3">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Product Price <span class="text-danger"> *</span> </label>
-                              <input
-                                type="number"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter Product Price"
-                              />
-                            </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Product Price <span class="text-danger"> *</span>
+                            </label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Enter Product Price"
+                            />
                           </div>
-                          <div class="col-md-3">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Product Stock Available <span class="text-danger"> *</span> </label>
-                              <input
-                                type="number"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter Available Stocks"
-                              />
-                            </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Product Stock Available
+                              <span class="text-danger"> *</span>
+                            </label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Enter Available Stocks"
+                            />
                           </div>
-                          <div class="col-md-3">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Package Quantity <span class="text-danger"> *</span> </label>
-                              <input
-                                type="number"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter Package Quanitity"
-                              />
-                            </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Package Quantity
+                              <span class="text-danger"> *</span>
+                            </label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Enter Package Quanitity"
+                            />
                           </div>
+                        </div>
                       </div>
                       <div>
-                        <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label
+                          for="exampleFormControlTextarea1"
+                          class="form-label"
+                          >Description</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
                       </div>
 
-                     <div class="submit__buttons mt-3">
-                      <button class="btn btn-primary">Publish Package</button>
-                      <button class="btn btn-secondary">Cancel</button>
-                     </div>
+                      <div class="submit__buttons mt-3">
+                        <button class="btn btn-primary">Publish Package</button>
+                        <button class="btn btn-secondary">Cancel</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -426,14 +546,18 @@
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
-              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+              <div
+                class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
+              >
                 <div class="mb-2 mb-md-0">
                   ©
                   <script>
                     document.write(new Date().getFullYear());
-                </script>
+                  </script>
                   Developed by
-                  <a href="#" target="_blank" class="footer-link fw-bolder">Team Cyber Sentinels</a>
+                  <a href="#" target="_blank" class="footer-link fw-bolder"
+                    >Team Cyber Sentinels</a
+                  >
                 </div>
               </div>
             </footer>
@@ -452,22 +576,22 @@
     <!-- / Layout wrapper -->
 
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="../assets/vendor/libs/popper/popper.js"></script>
-    <script src="../assets/vendor/js/bootstrap.js"></script>
-    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-    <script src="../assets/vendor/js/menu.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="assets/vendor/libs/apex-charts/apexcharts.js"></script>
 
     <!-- Main JS -->
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="../assets/js/dashboards-analytics.js"></script>
+    <script src="assets/js/dashboards-analytics.js"></script>
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
