@@ -6223,9 +6223,14 @@ a.invert-bg-dark:hover, a.invert-bg-dark:focus {
   }
 }
 .table th {
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 0.70rem;
+  background-color:#eee;
+  color:#fff;
+  /* letter-spacing: 1px; */
+}
+.table td{
+  font-size:0.74rem;
 }
 .table:not(.table-dark) th {
   color: #566a7f;

@@ -76,7 +76,7 @@
   
             <ul class="menu-inner py-1 mt-4">
               <!-- Dashboard -->
-              <li class="menu-item active">
+              <li class="menu-item">
                 <a href="index.html" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-home-circle"></i>
                   <div data-i18n="Analytics">Dashboard</div>
@@ -86,7 +86,7 @@
               <li class="menu-header small text-uppercase">
                 <span class="menu-header-text">Pages</span>
               </li>
-              <li class="menu-item">
+              <li class="menu-item active">
                 <a href="orders.html" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Orders</div>
@@ -110,7 +110,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="menu-item open active">
+              <li class="menu-item">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
                   <i class="menu-icon tf-icons bx bx-dock-top"></i>
                   <div data-i18n="Account Settings">Category</div>
@@ -121,7 +121,7 @@
                       <div data-i18n="Account">Add Category</div>
                     </a>
                   </li>
-                  <li class="menu-item active">
+                  <li class="menu-item">
                     <a href="all-categories.html" class="menu-link">
                       <div data-i18n="Notifications">All Categories</div>
                     </a>
@@ -301,109 +301,91 @@
 
             <div class="container-xxl flex-grow-1 container-p-y">
 
-             <h5>View All Categories</h5>
-             <p class="card-description">
-                List of all categories , you can edit or delete in
-                <span class="text-danger"> Action Column</span>
-              </p>
+             <h5>View All Orders</h5>
              <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
                     <div class="table-responsive pt-3">
-                      <table class="table table-bordered">
+                        <table class="table table-bordered">
                         <thead>
                           <tr>
-                            <th>#</th>
-                            <th>Category Name</th>
-                            <th>Sub Category Name</th>
+                            <th>Order ID</th>
+                            <th>Placed</th>
+                            <th>Transaction ID</th>
+                            <th>Tracking Id</th>
+                            <th>Bank Ref. No</th>
+                            <th>Amount</th>
+                            <th>Placed By</th>
+                            <th>Address</th>
+                            <th>Payment Status</th>
                             <th>Action</th>
                           </tr>
                         </thead>
                         <tbody>
                                 <tr>
-                                  <td>1</td>
-                                  <td>Mekhela Sador</td>
-                                  <td>Paat Muga</td>
+                                  <td>KE10001203001</td>
+                                  <td>03 Nov , 2023 <br> 07:55 AM</td>
+                                  <td>122233499839</td>
+                                  <td>442823319980</td>
+                                  <td>322018902790</td>
+                                  <td>₹ 123000</td>
+                                  <td>Ashok Kumer <br> 9796213922</td>
+                                  <td>Jalukbari, Assam <br> 781013</td>
                                   <td>
-                                    <div>
-                                      <button 
-                                      class="btn-sm btn-primary"
-                                      data-bs-toggle="modal"
-                                      data-bs-target="#modalCenter"
-                                      >
-                                        Edit
-                                      </button>
-                                      <button
-                                        class="ml-2 btn-sm btn-outline-danger"
-                                      >
-                                        Delete
-                                      </button>
-                                    </div>
+                                     <span class="badge bg-success">Success</span>
+                                  </td>
+                                  <td>
+                                      <button type="button" class="btn btn-sm btn-primary">View</button>
                                   </td>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Mekhela Sador</td>
-                                    <td>Pure Toss</td>
-                                    <td>
-                                      <div>
-                                        <button 
-                                        class="btn-sm btn-primary"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#modalCenter"
-                                        >
-                                          Edit
-                                        </button>
-                                        <button
-                                          class="ml-2 btn-sm btn-outline-danger"
-                                        >
-                                          Delete
-                                        </button>
-                                      </div>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>3</td>
-                                    <td>Mekhela Sador</td>
-                                    <td>Padmini Cotton</td>
-                                    <td>
-                                      <div>
-                                        <button 
-                                        class="btn-sm btn-primary"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#modalCenter"
-                                        >
-                                          Edit
-                                        </button>
-                                        <button
-                                          class="ml-2 btn-sm btn-outline-danger"
-                                        >
-                                          Delete
-                                        </button>
-                                      </div>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>4</td>
-                                    <td>Single Sador</td>
-                                    <td>Paat Muga</td>
-                                    <td>
-                                      <div>
-                                        <button 
-                                        class="btn-sm btn-primary"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#modalCenter"
-                                        >
-                                          Edit
-                                        </button>
-                                        <button
-                                          class="ml-2 btn-sm btn-outline-danger"
-                                        >
-                                          Delete
-                                        </button>
-                                      </div>
-                                    </td>
-                                  </tr>
+                                 <tr>
+                                  <td>KE10001203001</td>
+                                  <td>03 Nov , 2023 <br> 07:55 AM</td>
+                                  <td>122233499839</td>
+                                  <td>442823319980</td>
+                                  <td>322018902790</td>
+                                  <td>₹ 123000</td>
+                                  <td>Ashok Kumer <br> 9796213922</td>
+                                  <td>Jalukbari, Assam <br> 781013</td>
+                                  <td>
+                                     <span class="badge bg-success">Success</span>
+                                  </td>
+                                  <td>
+                                      <button type="button" class="btn btn-sm btn-primary">View</button>
+                                  </td>
+                                </tr>
+                                 <tr>
+                                  <td>KE10001203001</td>
+                                  <td>03 Nov , 2023 <br> 07:55 AM</td>
+                                  <td>122233499839</td>
+                                  <td>442823319980</td>
+                                  <td>322018902790</td>
+                                  <td>₹ 123000</td>
+                                  <td>Ashok Kumer <br> 9796213922</td>
+                                  <td>Jalukbari, Assam <br> 781013</td>
+                                  <td>
+                                     <span class="badge bg-success">Success</span>
+                                  </td>
+                                  <td>
+                                      <button type="button" class="btn btn-sm btn-primary">View</button>
+                                  </td>
+                                </tr>
+                                 <tr>
+                                  <td>KE10001203001</td>
+                                  <td>03 Nov , 2023 <br> 07:55 AM</td>
+                                  <td>122233499839</td>
+                                  <td>442823319980</td>
+                                  <td>322018902790</td>
+                                  <td>₹ 123000</td>
+                                  <td>Ashok Kumer <br> 9796213922</td>
+                                  <td>Jalukbari, Assam <br> 781013</td>
+                                  <td>
+                                     <span class="badge bg-success">Success</span>
+                                  </td>
+                                  <td>
+                                      <button type="button" class="btn btn-sm btn-primary">View</button>
+                                  </td>
+                                </tr>
                         </tbody>
                         </div>
                       </table>
