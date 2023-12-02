@@ -20,7 +20,11 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/favicon/favicon.ico"
+    />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,20 +38,38 @@
     <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/core.css"
+      class="template-customizer-core-css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/theme-default.css"
+      class="template-customizer-theme-css"
+    />
     <link rel="stylesheet" href="assets/css/demo.css" />
     <link rel="stylesheet" href="assets/css/custom-style.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
 
-    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/libs/apex-charts/apex-charts.css"
+    />
 
-      <!-- Font awsome CDN  -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
+    <!-- Font awsome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Page CSS -->
 
@@ -62,143 +84,151 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
-            <div class="app-brand demo" style="background-color:#2a2a7b;">
-              
-              <a href="index.html" class="app-brand-link">
-                <span class="app-brand-text demo text-white menu-text text-uppercase fw-bolder main-logo ms-2">KANGKAN EMPORIUM</span>
+        <aside
+          id="layout-menu"
+          class="layout-menu menu-vertical menu bg-menu-theme"
+        >
+          <div class="app-brand demo" style="background-color: #2a2a7b">
+            <a href="index.html" class="app-brand-link">
+              <span
+                class="app-brand-text demo text-white menu-text text-uppercase fw-bolder main-logo ms-2"
+                >KANGKAN EMPORIUM</span
+              >
+            </a>
+            <a
+              href="javascript:void(0);"
+              class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none"
+            >
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1 mt-4">
+            <!-- Dashboard -->
+            <li class="menu-item">
+              <a href="index.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">Dashboard</div>
               </a>
-              <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-                <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </li>
+
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Pages</span>
+            </li>
+            <li class="menu-item">
+              <a href="orders.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Basic">Orders</div>
               </a>
-            </div>
-  
-            <div class="menu-inner-shadow"></div>
-  
-            <ul class="menu-inner py-1 mt-4">
-              <!-- Dashboard -->
-              <li class="menu-item active">
-                <a href="index.html" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                  <div data-i18n="Analytics">Dashboard</div>
-                </a>
-              </li>
-  
-              <li class="menu-header small text-uppercase">
-                <span class="menu-header-text">Pages</span>
-              </li>
-              <li class="menu-item">
-                <a href="orders.html" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Orders</div>
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Account Settings">Home Sliders</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-sliders.html" class="menu-link">
-                      <div data-i18n="Account">Add Sliders</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-sliders.html" class="menu-link">
-                      <div data-i18n="Notifications">All Sliders</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item open active">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Category</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item active">
-                    <a href="add-category.html" class="menu-link">
-                      <div data-i18n="Account">Add Category</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-categories.html" class="menu-link">
-                      <div data-i18n="Notifications">All Categories</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Products</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-products.html" class="menu-link">
-                      <div data-i18n="Account">Add Products</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-products.html" class="menu-link">
-                      <div data-i18n="Notifications">All Products</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Discount</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-discount.html" class="menu-link">
-                      <div data-i18n="Account">Add Discount</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="all-discounts.html" class="menu-link">
-                      <div data-i18n="Notifications">All Discounts</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Customer Review</div>
-                </a>
-                <ul class="menu-sub">
-                  <li class="menu-item">
-                    <a href="add-review.html" class="menu-link">
-                      <div data-i18n="Account">Add Review</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="view-all-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">View All Reviews</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="published-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">Published Reviews</div>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="pending-reviews.html" class="menu-link">
-                      <div data-i18n="Notifications">Pending Reviews</div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Live Streaming</div>
-                </a>
-                 <ul class="menu-sub">
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Account Settings">Home Sliders</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-sliders.html" class="menu-link">
+                    <div data-i18n="Account">Add Sliders</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-sliders.html" class="menu-link">
+                    <div data-i18n="Notifications">All Sliders</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Category</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-category.html" class="menu-link">
+                    <div data-i18n="Account">Add Category</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-categories.html" class="menu-link">
+                    <div data-i18n="Notifications">All Categories</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Products</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-products.html" class="menu-link">
+                    <div data-i18n="Account">Add Products</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-products.html" class="menu-link">
+                    <div data-i18n="Notifications">All Products</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Discount</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item active">
+                  <a href="add-discount.html" class="menu-link">
+                    <div data-i18n="Account">Add Discount</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="all-discounts.html" class="menu-link">
+                    <div data-i18n="Notifications">View Discounts</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Customer Review</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="add-review.html" class="menu-link">
+                    <div data-i18n="Account">Add Review</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="view-all-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">View All Reviews</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="published-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">Published Reviews</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="pending-reviews.html" class="menu-link">
+                    <div data-i18n="Notifications">Pending Reviews</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Live Streaming</div>
+              </a>
+              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="create-streaming.html" class="menu-link">
                     <div data-i18n="Account">Create Streaming</div>
@@ -215,9 +245,9 @@
                   </a>
                 </li>
               </ul>
-              </li>
-            </ul>
-          </aside>
+            </li>
+          </ul>
+        </aside>
         <!-- / Menu -->
 
         <!-- Layout container -->
@@ -228,23 +258,38 @@
             class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
             id="layout-navbar"
           >
-            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
-              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+            <div
+              class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none"
+            >
+              <a
+                class="nav-item nav-link px-0 me-xl-4"
+                href="javascript:void(0)"
+              >
                 <i class="bx bx-menu bx-sm"></i>
               </a>
             </div>
 
-            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+            <div
+              class="navbar-nav-right d-flex align-items-center"
+              id="navbar-collapse"
+            >
               <!-- Search -->
               <!-- /Search -->
 
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow"
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                  >
                     <div class="avatar avatar-online">
-                      <img src="assets/img/avatars/admin-pic.png" alt class="w-px-40 h-auto rounded-circle" />
+                      <img
+                        src="assets/img/avatars/admin-pic.png"
+                        alt
+                        class="w-px-40 h-auto rounded-circle"
+                      />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -253,11 +298,17 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="assets/img/avatars/admin-pic.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img
+                                src="assets/img/avatars/admin-pic.png"
+                                alt
+                                class="w-px-40 h-auto rounded-circle"
+                              />
                             </div>
                           </div>
                           <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">Academic Employee</span>
+                            <span class="fw-semibold d-block"
+                              >Academic Employee</span
+                            >
                             <small class="text-muted">Admin</small>
                           </div>
                         </div>
@@ -301,40 +352,106 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-
-             <h5>Add New Category</h5>
+              <h5>Add Discount</h5>
 
               <div class="row mb-5">
                 <div class="col-md-12">
                   <div class="card mb-4">
                     <div class="card-body">
                       <div class="row">
-                          <div class="col-md-4">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Category Name<span class="text-danger fw-bold">*</span></label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter Category Name"
-                              />
-                            </div>
+                        <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >Discount Type
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option value="1">Category Wise</option>
+                              <option value="2">Product Wise</option>
+                            </select>
                           </div>
-                          <div class="col-md-4">
-                            <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Sub Category Name <span class="text-danger fw-bold">*</span></label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Your Sub Category Name"
-                              />
-                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Discount Amount(%)
+                              <span class="text-danger fw-bold">*</span></label
+                            >
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Discount Amount in %"
+                            />
                           </div>
-                          <div class="col-md-4" style="margin-top: 27px;">
-                            <button class="btn btn-primary">Add Category</button>
-
+                        </div>
+                        <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlSelect1"
+                              class="form-label"
+                              >Select Product Category
+                              <span class="text-danger"> *</span></label
+                            >
+                            <select
+                              class="form-select"
+                              id="exampleFormControlSelect1"
+                              aria-label="Default select example"
+                            >
+                              <option selected>Select Product Category</option>
+                              <option value="1">Paat Muga</option>
+                              <option value="2">Padmini Cotton</option>
+                              <option value="3">Pure Toss</option>
+                              <option value="4">Pure Nuni</option>
+                              <option value="5">Assam Silk</option>
+                              <option value="6">Single Sador Muga</option>
+                              <option value="7">Single Sador Toss</option>
+                            </select>
                           </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Start Date
+                              <span class="text-danger fw-bold">*</span></label
+                            >
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Set Start Date"
+                            />
+                          </div>
+                        </div>
+                            <div class="col-md-4">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Expiry Date
+                              <span class="text-danger fw-bold">*</span></label
+                            >
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Set Expiry Date"
+                            />
+                          </div>
+                        </div>
+                        <div class="row" style="margin-top: 0px">
+                          <button class="btn btn-primary">Save Discount</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -345,14 +462,18 @@
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
-              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+              <div
+                class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
+              >
                 <div class="mb-2 mb-md-0">
                   ©
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
                   Developed by
-                  <a href="#" target="_blank" class="footer-link fw-bolder">Team Cyber Sentinels</a>
+                  <a href="#" target="_blank" class="footer-link fw-bolder"
+                    >Team Cyber Sentinels</a
+                  >
                 </div>
               </div>
             </footer>
