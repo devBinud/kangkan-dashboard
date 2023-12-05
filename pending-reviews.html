@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>View All Reviews | Kangkan Emporium</title>
+    <title>Published Reviews | Kangkan Emporium</title>
 
     <meta name="description" content="" />
 
@@ -164,7 +164,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="menu-item open active">
+              <li class="menu-item active open">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
                   <i class="menu-icon tf-icons bx bx-dock-top"></i>
                   <div data-i18n="Account Settings">Customer Review</div>
@@ -175,17 +175,17 @@
                       <div data-i18n="Account">Add Review</div>
                     </a>
                   </li>
-                  <li class="menu-item active">
+                  <li class="menu-item">
                     <a href="view-all-reviews.html" class="menu-link">
                       <div data-i18n="Notifications">View All Reviews</div>
                     </a>
                   </li>
-                  <li class="menu-item">
+                  <li class="menu-item ">
                     <a href="published-reviews.html" class="menu-link">
                       <div data-i18n="Notifications">Published Reviews</div>
                     </a>
                   </li>
-                  <li class="menu-item">
+                  <li class="menu-item active">
                     <a href="pending-reviews.html" class="menu-link">
                       <div data-i18n="Notifications">Pending Reviews</div>
                     </a>
@@ -197,7 +197,7 @@
                   <i class="menu-icon tf-icons bx bx-dock-top"></i>
                   <div data-i18n="Account Settings">Live Streaming</div>
                 </a>
-                 <ul class="menu-sub">
+                <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="create-streaming.html" class="menu-link">
                     <div data-i18n="Account">Create Streaming</div>
@@ -301,7 +301,7 @@
 
             <div class="container-xxl flex-grow-1 container-p-y">
 
-             <h5>View All Reviews</h5>
+             <h5>View Pending Review</h5>
              <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
@@ -311,25 +311,83 @@
                           <tr>
                             <th>Customer Name</th>
                             <th>Review</th>
-                            <th>Review Post By</th>
-                            <th>Status</th>
+                            <th>Post Date</th>
                             <th>Action</th>
                           </tr>
                         </thead>
                         <tbody>
                                 <tr>
-                                  <td>Bimal Dutta</td>
-                                  <td>Kangkan Emporium products are very good .</td>
-                                  <td>User</td>
-                                  <td>Pending</td>
+                                  <td>Nikita Barman</td>
+                                  <td>The products are very good .</td>
+                                  <td>30 June , 2023</td>
                                   <td>
                                     <div>
                                       <button 
                                       class="btn btn-sm btn-primary"
-                                      data-bs-toggle="modal"
-                                      data-bs-target="#modalCenter"
                                       >
-                                        View
+                                        Edit
+                                      </button>
+                                       <button 
+                                      class="btn btn-sm btn-danger"
+                                      >
+                                        Decline
+                                      </button>
+                                    </div>
+                                  </td>
+                                </tr>
+                                  <tr>
+                                  <td>Utpal Gohain</td>
+                                  <td>The products are very good .</td>
+                                  <td>30 June , 2023</td>
+                                  <td>
+                                    <div>
+                                      <button 
+                                      class="btn btn-sm btn-primary"
+                                      >
+                                        Edit
+                                      </button>
+                                       <button 
+                                      class="btn btn-sm btn-danger"
+                                      >
+                                        Decline
+                                      </button>
+                                    </div>
+                                  </td>
+                                </tr>
+                                  <tr>
+                                  <td>Bidyut Barman</td>
+                                  <td>The products are very good .</td>
+                                  <td>30 June , 2023</td>
+                                  <td>
+                                    <div>
+                                      <button 
+                                      class="btn btn-sm btn-primary"
+                                      >
+                                        Edit
+                                      </button>
+                                       <button 
+                                      class="btn btn-sm btn-danger"
+                                      >
+                                        Decline
+                                      </button>
+                                    </div>
+                                  </td>
+                                </tr>
+                                  <tr>
+                                  <td>Arnab Das</td>
+                                  <td>The products are very good .</td>
+                                  <td>30 June , 2023</td>
+                                  <td>
+                                    <div>
+                                      <button 
+                                      class="btn btn-sm btn-primary"
+                                      >
+                                        Edit
+                                      </button>
+                                       <button 
+                                      class="btn btn-sm btn-danger"
+                                      >
+                                        Decline
                                       </button>
                                     </div>
                                   </td>
@@ -344,63 +402,6 @@
             </div>
             <!-- / Content -->
 
-              <!-- Modal -->
-              <div class="modal fade" id="modalCenter" tabindex="-1" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="modalCenterTitle">Edit Customer Review</h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="row">
-                        <div class="col mb-3">
-                          <label for="nameWithTitle" class="form-label">Customer Name</label>
-                          <input
-                            type="text"
-                            id="nameWithTitle"
-                            class="form-control"
-                            placeholder="Bimal Dutta"
-                          />
-                        </div>
-                      </div>
-                       <div class="row">
-                        <div class="col mb-0">
-                          <label for="emailWithTitle" class="form-label">Customer Designation</label>
-                          <input
-                            type="text"
-                            id="emailWithTitle"
-                            class="form-control"
-                            placeholder="Enter Customer Designation"
-                          />
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col mb-0">
-                          <label for="emailWithTitle" class="form-label">Customer Review</label>
-                          <input
-                            type="text"
-                            id="emailWithTitle"
-                            class="form-control"
-                            placeholder="Kangkan Emporium products are very good ."
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-primary">Update Review</button>
-                       <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
